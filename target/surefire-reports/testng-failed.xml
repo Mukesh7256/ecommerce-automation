@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShopEasy Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Login Tests - TC001 to TC003(failed)" verbose="0">
+    <classes>
+      <class name="com.ecommerce.tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testWrongPassword"/>
+          <include name="setUp"/>
+          <include name="testEmptyFields"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login Tests - TC001 to TC003(failed) -->
+  <test thread-count="5" name="Register Tests - TC004 to TC007(failed)" verbose="0">
+    <classes>
+      <class name="com.ecommerce.tests.RegisterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testPasswordMismatch"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.RegisterTest -->
+    </classes>
+  </test> <!-- Register Tests - TC004 to TC007(failed) -->
+  <test thread-count="5" name="Navigation Tests - TC021 to TC026(failed)" verbose="0">
+    <classes>
+      <class name="com.ecommerce.tests.NavigationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCart"/>
+          <include name="testSearch"/>
+          <include name="testShopNow"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.NavigationTest -->
+    </classes>
+  </test> <!-- Navigation Tests - TC021 to TC026(failed) -->
+</suite> <!-- Failed suite [ShopEasy Automation Suite] -->
