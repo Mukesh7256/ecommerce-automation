@@ -3,23 +3,28 @@
 
 <suite name="ShopEasy Automation Suite" verbose="2">
 
-    <!-- T063: Maven + TestNG Setup -->
-    <test name="Login Tests - TC001 to TC003">
+    <test name="Login Tests">
         <classes>
             <class name="com.ecommerce.tests.LoginTest"/>
         </classes>
     </test>
 
-    <test name="Register Tests - TC004 to TC007">
+    <test name="Register Tests">
         <classes>
             <class name="com.ecommerce.tests.RegisterTest"/>
         </classes>
     </test>
 
-    <!-- T067: Navigation Tests -->
-    <test name="Navigation Tests - TC021 to TC026">
+    <test name="Navigation Tests">
         <classes>
             <class name="com.ecommerce.tests.NavigationTest"/>
+        </classes>
+    </test>
+
+    <!-- T076 + T077 -->
+    <test name="Day 36 - Logout and Session Tests">
+        <classes>
+            <class name="com.ecommerce.tests.LogoutTest"/>
         </classes>
     </test>
 

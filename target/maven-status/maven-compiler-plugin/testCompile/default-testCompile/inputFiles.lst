@@ -1,9 +1,11 @@
 D:\Download Chrome\automation\src\test\java\com\ecommerce\base\BaseTest.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\config\Config.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\pages\LoginPage.java
+D:\Download Chrome\automation\src\test\java\com\ecommerce\pages\LogoutPage.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\pages\NavigationPage.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\pages\RegisterPage.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\tests\LoginTest.java
+D:\Download Chrome\automation\src\test\java\com\ecommerce\tests\LogoutTest.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\tests\NavigationTest.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\tests\RegisterTest.java
 D:\Download Chrome\automation\src\test\java\com\ecommerce\utils\WaitUtils.java
